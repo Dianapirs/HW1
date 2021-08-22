@@ -66,5 +66,12 @@ console.log('Forth task');
 let HCilindra = 10;
 let d = a7;
 const VCilindra = Math.pow(d, 2) / 4 * 3.14 * HCilindra;
-console.log ('Объем цилиндра равен', VCilindra, 'см\u00B3');
+console.log ('Объем цилиндра равен', VCilindra, 'м\u00B3');
+console.log('');
+
+// Fifth task
+console.log('Fifth task');
+let rKruga = 5;
+const SKruga = rKruga ** 2 * 3.14;
+console.log('Площадь круга равна', SKruga, 'см\u00B2');
 console.log('');
