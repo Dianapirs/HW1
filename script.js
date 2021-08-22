@@ -84,3 +84,15 @@ let a = 5,
 const STrap = (a + b) / 2 * h;
 console.log('Площадь трапеции равна', STrap, 'см\u00B2');
 console.log('');
+
+//Seventh task
+console.log('Seventh task');
+let S = 2000000,
+    p = 10,
+    years = 5;
+const Pereplata = ((years * 12) * (S * ((p / 100 / 12) * (1 + (p / 100 / 12)) ** (years * 12)) / ((1 + (p / 100 / 12)) ** (years * 12) - 1)) - S);
+console.log('Сумма переплаты по кредиту составит', Pereplata, 'рублей');
+console.log('');
+
+
+
