@@ -94,5 +94,15 @@ const Pereplata = ((years * 12) * (S * ((p / 100 / 12) * (1 + (p / 100 / 12)) **
 console.log('Сумма переплаты по кредиту составит', Pereplata, 'рублей');
 console.log('');
 
-
+// Eighth task
+console.log('Eighth task');
+    a = 8;
+    b = 3;
+let x = (16 - a + (2 * b)) / 2;
+console.log('Первый x равен', x);
+    x = (a - (15 * b)) / (b - 6);
+console.log('Второй x равен', x);
+    x = 23780 / (3 + a + b);
+console.log('Третий x равен', x);
+console.log('');
 
