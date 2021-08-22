@@ -60,3 +60,11 @@ let height = 23;
 const SPryam = width * height;
 console.log('Площадь прямоугольника равна', SPryam, 'см\u00B2');
 console.log('');
+
+// Forth task
+console.log('Forth task');
+let HCilindra = 10;
+let d = a7;
+const VCilindra = Math.pow(d, 2) / 4 * 3.14 * HCilindra;
+console.log ('Объем цилиндра равен', VCilindra, 'см\u00B3');
+console.log('');
