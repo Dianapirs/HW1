@@ -1,5 +1,5 @@
 // task 1
-
+console.log('First task');
 const str = 'Привет';
 const sum = 123;
 const num = 15.8;
@@ -11,9 +11,9 @@ console.log(sum, typeof sum);
 console.log(num, typeof num);
 console.log(flag, typeof flag);
 console.log(txt, typeof txt);
-
+console.log('');
 // task 2
-
+console.log('Second task');
 let a1 = 5 % 3;
 console.log(a1, typeof a1);
 let a2 = 3 % 5;
@@ -50,3 +50,13 @@ let a17 = false || true;
 console.log(a17, typeof a17);
 let a18 = true > 0;
 console.log(a18, typeof a18);
+console.log('');
+
+// third task
+console.log('Third task');
+
+let width = 10;
+let height = 23;
+const SPryam = width * height;
+console.log('Площадь прямоугольника равна', SPryam, 'см\u00B2');
+console.log('');
