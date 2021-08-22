@@ -75,3 +75,12 @@ let rKruga = 5;
 const SKruga = rKruga ** 2 * 3.14;
 console.log('Площадь круга равна', SKruga, 'см\u00B2');
 console.log('');
+
+// Sixth task
+console.log('Sixth task');
+let a = 5,
+    b = 7,
+    h = 10;
+const STrap = (a + b) / 2 * h;
+console.log('Площадь трапеции равна', STrap, 'см\u00B2');
+console.log('');
